@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+    <RelativeLayout tools:context=".MainActivity" android:background="@drawable/mi" android:paddingTop="@dimen/abc_action_bar_default_padding_end_material" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--List view for displaying chat messages-->
+
+
+    <ListView android:layout_height="match_parent" android:layout_width="match_parent" android:divider="@null" android:id="@+id/listView"/>
+
+    <!--To type and send the message-->
+
+
+
+    -<LinearLayout android:background="#ffdddddd" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/send_message_layout" android:gravity="center_vertical" android:layout_alignParentBottom="true">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/et_message" android:layout_weight="0.79" android:layout_marginRight="4dp" android:layout_marginLeft="4dp"/>
+
+    <ImageButton
+        android:id="@+id/speak"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+    <Button android:background="@android:drawable/ic_menu_send" android:layout_height="wrap_content" android:layout_width="63dp" android:id="@+id/btn_send" android:backgroundTint="@color/colorPrimary"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="107dp" android:id="@+id/spinner"/>
+
+</LinearLayout>
+
+</RelativeLayout>

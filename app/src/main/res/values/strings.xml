@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TCSProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chatbot_page">chatbot_page</string>
+    <string name="title_activity_login_page">login_page</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_thankyou">thankyou</string>
+    <string name="title_activity_paynow">paynow</string>
+    <string name="title_activity_applynow">Applynow</string>
+    <string name="title_activity_investment">investment</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="title_activity_balance">Balance</string>
+</resources>

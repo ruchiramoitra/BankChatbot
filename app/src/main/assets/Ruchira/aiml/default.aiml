@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>
+          hello ^ 
+      </pattern>
+      <template>
+          Welcome to XYZ bank. How can I help you?
+      </template>
+  </category>
+  <category>
+      <pattern>
+          hi ^
+      </pattern>
+      <template>
+        <srai>hello ^</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>* developed ^ </pattern>
+      <template>Team 1</template>
+  </category>
+  <category>
+      <pattern>* name ^ </pattern>
+      <template>My name is XYZ-ChatBot.</template>
+  </category>
+  <category>
+      <pattern> * intelligent ^ </pattern>
+      <template> Thanks for the compliment! </template>
+  </category>
+  <category>
+      <pattern> thank * </pattern>
+      <template> Welcome Sir! Happy to help. </template>
+  </category>
+  <category>
+      <pattern> thanks ^ </pattern>
+      <template><srai> thank *</srai></template>
+  </category>
+  <category>
+      <pattern> bye ^ </pattern>
+      <template> Good Bye Sir! Happy Banking!</template>
+  </category>
+  <category>
+      <pattern> * bye ^ </pattern>
+      <template><srai> bye ^ </srai></template>
+  </category>
+</aiml>

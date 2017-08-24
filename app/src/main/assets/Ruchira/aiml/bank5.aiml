@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>
+        ^ PROFILE PASSWORD ^
+    </pattern>
+    <template>
+        IF YOU FORGOT YOUR PROFILE PASSWORD , YOU CAN RESET IT YOURSELF.
+        YOU NEED TO AUTHENTICATE YOURSELF WITH THE HINT QUESTION AND ANSWER THAT 
+        YOU SET FOR THE PROFILE PASSWORD.
+        IF YOU FORGOT EVEN THAT THEN YOU CAN APPROACH THE BRANCH TO RESET THE PASSWORD. 
+    </template>
+</category>
+</aiml>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern> * IFSC ^ </pattern>
+      <template> The Indian Financial System Code (IFS Code or IFSC) is an alphanumeric code that facilitates electronic funds transfer in India. 
+      A code uniquely identifies each bank branch participating in the online transfer of funds. </template>
+  </category>
+  <category>
+      <pattern> How * IFSC ^</pattern>
+      <template>To know the IFSC of a particular branch, click on this link below.
+          www.google.com
+          Then, enter your state, then district, and then choose the branch for which you want to know the IFSC code.
+          You will get it.
+      </template>
+      </category>
+    <category>
+          <pattern> What * IFSC * branch ^ </pattern>
+          <template><srai> How * IFSC ^</srai></template>
+    </category>
+</aiml>

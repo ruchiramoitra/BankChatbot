@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>* balance ^</pattern>
+      <template>PRICE+</template>
+  </category>
+
+  <category>
+  <pattern>* account ^</pattern>
+  <template>ACCOUNT+</template>
+  </category>
+
+
+
+
+</aiml>

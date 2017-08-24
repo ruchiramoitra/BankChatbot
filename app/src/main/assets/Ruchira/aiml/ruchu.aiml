@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern> Where * ATM ^ </pattern>
+      <template> You can find the list of available ATM in your city in our bank's website under 'ATM and Services' tab. </template>
+  </category>
+  <category>
+      <pattern> How * ATM ^ </pattern>
+      <template><srai> Where * ATM ^ </srai></template>
+  </category>
+
+</aiml>

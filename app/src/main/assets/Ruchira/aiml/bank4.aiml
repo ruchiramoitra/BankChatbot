@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>
+          ^ LOGIN PASSWORD ^
+      </pattern>
+      <template><srai>^ NETBANKING PASSWORD ^</srai></template>
+  </category>
+   <category>
+      <pattern>
+          ^ NETBANKING PASSWORD ^
+      </pattern>
+      <template>
+          GO TO WEBSITE OF NETBANKING AND CLICK ON THE "FORGOT MY PASSWORD" <br/>
+          AND FOLLOW THE INSTRUCTIONS 
+      </template>
+  </category>
+</aiml>

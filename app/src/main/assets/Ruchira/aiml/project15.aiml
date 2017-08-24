@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern> * open * bank account ^ </pattern>
+      <template>
+          To open a bank account, you need to visit to the nearest branch of the bank with the following documents.
+          1) Print out the Account Opening Form (AOF)
+2) Proof of identity and address (Passport, Voter's ID, Driving Licence, Aadhar card, NREGA card, PAN card)
+3) 2 recent passport-size coloured photographs.
+4) In the case of minors below the age of 10, ID proof of the person who will operate the account is required.
+      </template>
+  </category>
+  <category>
+      <pattern> * open * new account ^ </pattern>
+      <template><srai> * open *bank account</srai></template>
+  </category>
+</aiml>

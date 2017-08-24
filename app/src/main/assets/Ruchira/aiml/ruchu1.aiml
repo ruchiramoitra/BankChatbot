@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>What * damaged * </pattern>
+      <template> Please visit the branch with the ATM Receipt.</template>
+  </category>
+  <category>
+      <pattern> * damaged notes *</pattern>
+      <template>Please visit the branch with the ATM Receipt.</template>
+  </category>
+  <category>
+      <pattern> * ATM ^ damaged notes *</pattern>
+      <template>Please visit the branch with the ATM Receipt.
+      </template>
+      </category>
+    
+</aiml>

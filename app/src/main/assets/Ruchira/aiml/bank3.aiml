@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>
+        ^ UNAUTHORISED TRANSACTION ^
+    </pattern>
+    <template>
+        YOU SHOULD URGENTLY INFORM THE BANK AUTHORITIES ABOUT THE UNAUTHORIZED TRANSACTION <br/>
+        AND TELL THEM THE EXACT DETAILS ABOUT THE TRANSACTION
+    </template>
+</category>
+</aiml>

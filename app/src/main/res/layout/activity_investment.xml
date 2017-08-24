@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:weightSum="1" android:background="@mipmap/background">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="24sp" android:textColor="@android:color/background_dark" android:textAlignment="center" android:text="INVESTMENT INFORMATION :" android:layout_weight="0.08" android:id="@+id/textView15"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textColor="@android:color/background_dark" android:text="You do not have any Investment Account with us.For further query please contact our customer care unit or visit our nearest branch." android:layout_weight="0.09" android:id="@+id/textView16"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:weightSum="1" android:orientation="vertical"  android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"  android:background="@mipmap/background">
+
+    <TextView android:layout_height="0dp" android:layout_width="match_parent" android:textSize="18sp" android:textColor="@android:color/background_dark" android:textAlignment="center" android:text="APPLY FOR" android:layout_weight="0.14" android:id="@+id/textView12"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@android:color/background_dark" android:text="SAVINGS ACCOUNT" android:id="@+id/saving" android:onClick="onButtonClick"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@android:color/background_dark" android:text="CREDIT CARD" android:id="@+id/creidt" android:onClick="onButtonClick"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="18sp" android:textColor="@android:color/background_dark" android:text="Select the desired option.Our cutomer care unit will contact you." android:layout_weight="0.16" android:id="@+id/textView13"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@android:color/background_dark" android:text="SUBMIT" android:layout_weight="0.05" android:id="@+id/submitapply" android:onClick="onButtonClick"/>
+
+</LinearLayout>

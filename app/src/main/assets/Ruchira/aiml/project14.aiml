@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern> * current interest rate ^ </pattern>
+    <template>
+        For savings account, 4%.
+        For fixed deposit, 7.25%.
+        For PPF, 8.7%.
+    </template>
+</category>
+<category>
+    <pattern> * present interest rate ^ </pattern>
+    <template><srai> * current interest rate * </srai></template>
+</category>
+</aiml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>
+          * LOST * ATM CARD ^
+      </pattern>
+      <template><srai>* ATM CARD IS STOLEN ^</srai></template>
+  </category>
+  <category>
+      <pattern>
+          * ATM CARD * STOLEN ^
+      </pattern>
+      <template>
+          YOU NEED TO BLOCK YOUR ISSUED ATM CARD <br/> 
+          YOU CAN DO THIS BY GOING TO ONLINE PORTAL OF THE BANK <br/>
+          YOU CAN ALSO REPORT THIS DIRECTLY IN YOUR NEAREST BRANCH
+      </template>
+  </category>
+</aiml>

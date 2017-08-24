@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+   <category>
+      <pattern>
+          ^ BRANCHES ARE THERE IN KOLKATA ^
+      </pattern>
+      <template>
+          ^ BRANCHES IN KOLKATA ^
+      </template>
+  </category>
+  <category>
+      <pattern>
+          ^ BRANCHES IN KOLKATA ^
+      </pattern>
+      <template>
+          THERE ARE TOTAL 6 BRANCHES IN KOLKATA
+      </template>
+  </category>
+</aiml>

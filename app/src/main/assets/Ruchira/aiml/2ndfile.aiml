@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern> * sms regarding transactions ^ </pattern>
+        <template>
+        Firstly, you have to register your mobile number via this link.
+        www.google.com
+        Enter your mobile number and you will recieve an OTP. Enter the OTP and you will get your mobile number registered.
+        If you have already registered, you will recieve sms. In some cases sms can be delayed due to any problem. Check your transaction history in that case.
+        </template>
+  </category>
+  <category>
+  <pattern> * messages regarding transactions ^ </pattern>
+  <template><srai> * sms regarding transactions ^ </srai></template>
+  </category>
+   <category>
+      <pattern> * OTP ^ </pattern>
+      <template>A one-time password (OTP) is a password that is valid for only one login session or transaction, on a computer system or other digital device.</template>
+  </category>
+  <category>
+      <pattern>* reset * pin * Debit Card ^ </pattern>
+      <template>Go to My Account on left hand side menu
+                Select 'Manage PIN'
+                From the drop down menu, select the debit card, you want to generate the PIN for.
+                We will SMS you a One Time Password (OTP) on your registered mobile number
+                Enter the OTP and your ATM PIN that you want to set
+                Click on 'Submit' and your PIN is generated</template>
+  </category>
+  <category>
+  <pattern>* change * pin * Debit Card ^ </pattern>
+  <template><srai>* reset * pin * Debit Card ^ </srai></template>
+  </category>
+  <category>
+     <pattern> * link * account * Pan Card ^ </pattern>
+     <template>First and foremost call bank customer care. The number will be available on the bank's official site or pamphlets.
+                And go through the IVR selection during the call.
+                You will be connected to the customer care executive.
+                Tell them that you want to link PAN card with bank account.
+                They will be asking you some simple questions just answer them, they ask you those questions about your Bank account number, ATM card number, Your Address etc. It's just to verify it's you.
+                Tell them your PAN card number.
+                And you are done with it, your PAN card will be linked with your bank account within 2 working Days.
+    </template> 
+  </category>
+    <category>
+    <pattern> * link * Pan Card * account ^</pattern>
+     <template><srai> * link * account * Pan Card ^ </srai></template> 
+  </category>
+   <category>
+      <pattern>* long * bank transfer ^</pattern>
+      <template>Estimated arrival: 1 business day
+
+                Transfers made after 7:00 PM ET or on weekends or holidays, it may take longer.
+        </template>
+   </category>
+    <category>
+      <pattern>* duration * bank transfer ^ </pattern>
+      <template><srai>*long * bank transfer ^</srai></template>
+   </category>
+   <category>
+       <pattern>* KYC * important ^ </pattern>
+       <template>The KYC controls the following:
+
+                        1)Analysis and collection of basic information regarding an individual's identity
+                        2)Expectation of transactional behaviour of the customer
+                        3)Matching the name of the customer against a list of known parties</template>
+   </category>
+   <category>
+   <pattern>* importance * KYC ^ </pattern>
+   <template><srai>* KYC * important ^ </srai></template>
+   </category>
+    <category>
+       <pattern> * documents * for KYC ^ </pattern>
+       <template>Documents may vary for each bank and financial institution based on the requirements but the most commonly requested documents for KYC are proof of identity and address is required. These can include, PAN card, Passport, Voter ID, Utility bills, Birth Certificate, Driving License, etc.</template>
+   </category>
+   <category>
+       <pattern> * KYC ^ </pattern>
+       <template>Know your customer (KYC) is the process of a business identifying and verifying the identity of its clients. The term is also used to refer to the bank and anti-money laundering regulations which governs these activities.
+       </template>
+   </category>
+</aiml>

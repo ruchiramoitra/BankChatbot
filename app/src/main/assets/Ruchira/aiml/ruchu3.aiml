@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern> * CVV ^ </pattern>
+      <template> The CVV number (Card Verification Value) on a credit card is a 3-4 digit number on VISA, MasterCard, Discover, and American Express credit cards. </template>
+  </category>
+  <category>
+      <pattern> * find * CVV ^ </pattern>
+      <template> You can find your card's CVV at the reverse side of your card. It is a 3 digit number.</template>
+  </category>
+   <category>
+      <pattern> where * CVV ^ </pattern>
+      <template> You can find your card's CVV at the reverse side of your card. It is a 3 digit number.</template>
+  </category>
+</aiml>

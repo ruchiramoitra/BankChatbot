@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern> * net banking ^ </pattern>
+      <template> Net Banking allows you to avail our services online.
+    To get the link for Net Banking, visit our bank's website. The link is on the top right.
+    </template>
+  </category>
+  <category>
+      <pattern> * website * net banking ^ </pattern>
+      <template><srai> * net banking ^ </srai></template>
+  </category>
+   <category>
+      <pattern> * website * netbanking ^ </pattern>
+      <template><srai> * net banking ^ </srai></template>
+  </category>
+    <category>
+      <pattern> * link * net banking ^ </pattern>
+      <template><srai> * net banking ^ </srai></template>
+  </category>
+    <category>
+      <pattern> * link * netbanking ^ </pattern>
+      <template><srai> * net banking ^ </srai></template>
+  </category>
+    <category>
+      <pattern> * website * internet banking ^ </pattern>
+      <template><srai> * net banking ^ </srai></template>
+  </category>
+    <category>
+      <pattern> * link * internet banking ^ </pattern>
+      <template><srai> * net banking ^ </srai></template>
+  </category>
+  
+</aiml>

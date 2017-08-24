@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+    <RelativeLayout tools:context="com.example.ruchira.tcsproject.login_page"  android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"  android:background="@mipmap/background">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_above="@+id/ll_register_footer" android:layout_marginRight="15dp" android:layout_marginLeft="15dp" android:orientation="vertical">
+
+    <ImageView android:layout_height="92dp" android:layout_width="wrap_content" android:src="@drawable/splash"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPersonName" android:layout_marginBottom="5dp" android:layout_marginTop="100dp" android:maxLength="35" android:textColorHint="#4c4646" android:hint="User Name" android:textAlignment="center" android:textSize="20dp" android:id="@+id/TFUsername"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPassword" android:layout_marginBottom="5dp" android:maxLength="15" android:textColorHint="#4c4646" android:hint="Passsword" android:textAlignment="center" android:textSize="20dp" android:id="@+id/TFPassword"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:id="@+id/ll_login_footer" android:layout_alignParentBottom="true">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_marginBottom="15dp" android:layout_gravity="center_horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#000000" android:text=" Don't have an account? "/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Bsignup" android:textColor="#0000EE" android:text="CLICK HERE"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#000000" android:text=" to create one !! "/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textAlignment="center" android:textSize="30sp" android:id="@+id/Blogin" android:text="Login"/>
+
+</LinearLayout>
+
+</RelativeLayout>

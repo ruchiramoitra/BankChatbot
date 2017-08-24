@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>
+          * FORGOT MY ATM CARD PIN ^
+      </pattern>
+      <template>
+        <srai>* FORGOT MY ATM PIN ^ </srai>
+      </template>
+  </category>
+      <category>
+      <pattern>
+          * RESET MY ATM CARD PIN ^
+      </pattern>
+      <template>
+        <srai>* FORGOT MY ATM PIN ^ </srai>
+      </template>
+  </category>
+  <category>
+      <pattern>
+          * RESET MY ATM PIN ^
+      </pattern>
+      <template>
+        <srai>* FORGOT MY ATM PIN ^ </srai>
+      </template>
+  </category>
+    <category>
+      <pattern>
+          * FORGOT MY ATM PIN ^
+      </pattern>
+      <template>
+      IF YOU FORGOT YOUR ATM PIN YOU MAY REQUEST A NEW PIN THROUGH ONLINE BANKING <br/>
+       OR BY CONTACTING A CUSTOMER CARE SERVICE ADVISOR
+      </template>
+  </category>
+
+
+</aiml>

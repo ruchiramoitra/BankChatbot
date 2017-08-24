@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern> * working hours ^ </pattern>
+    <template> The working hours for XYZ bank is from 10 AM to 5 PM from Monday to Friday.
+        We are also open for Full Day on first and third Saturdays of the month.
+    </template>
+</category>
+</aiml>
